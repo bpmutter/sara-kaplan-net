@@ -1,13 +1,23 @@
 import React from "react"
-import {Link} from "gatsby"
-import { RiHeart2Line } from "react-icons/ri";
+import { Link } from "gatsby"
+import { RiHeart2Line } from "react-icons/ri"
 
-const Footer = () => (
-  <footer className="site-footer">
-    <div className="container">
-      <p>A GatsbyJS Starter for Netlify CMS, Made with <span className="icon -love"><RiHeart2Line/></span> by <Link to="/">Stackrole.com</Link></p>
-    </div>
-  </footer>
-)
+const Footer = () => {
+  const now = new Date()
+  const thisYear = now.getFullYear()
+
+  return (
+    <footer className="site-footer">
+      <div className="container">
+        <p>
+          © {thisYear} Sara Kaplan. Made by{" "}
+          <a href="https://ben.perlmutter.io" target="_blank">
+            Ben Perlmutter
+          </a>
+        </p>
+      </div>
+    </footer>
+  )
+}
 
 export default Footer

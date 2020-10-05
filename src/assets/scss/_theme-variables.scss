@@ -4,31 +4,33 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
 :root {
-
-	--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-	--font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --font-family-main: "Cutive Mono", monospace;
+  --font-family-header: "Josefin Sans", sans-serif;
+  --font-family-mono: monospace;
   --font-size-small: 12px;
-  
-  --primary-color: #5C2941;
-  --header-bg: #5C2941;
 
-  --home-link-color: #A1613F;
-  --home-link-hover-color:  var(--primary-color);
+  --primary-color: #e1b790;
+  --site-bg: #f0ede4;
 
-  --button-color: #E5C3D3;
-  --button-alternate-color: #5C2941;
+  --home-link-color: #a1613f;
+  --home-link-hover-color: var(--primary-color);
 
-  --post-link-color: #0F070B;
+  --button-color: #f0ede4;
+  --button-alternate-color: #e1b790;
 
+  --post-link-color: #0f070b;
 
   --nav-link-hover-bg: #111;
-  --text-color-meta: rgba(0,0,0,0.5);
+  --text-color-meta: rgba(0, 0, 0, 0.5);
+  --text-primary: rgba(0, 0, 0, 0.8);
+  --text-subtitle: rgba(0, 0, 0, 0.5);
 
-  --label-text: rgba(0,0,0,0.5);
-  --input-focus-border: #83AAAC;
-  
+  --label-text: rgba(0, 0, 0, 0.5);
+  --input-focus-border: #83aaac;
+
   // CSS Grid Utility
-  --grid-gap: 30px; 
-
+  --grid-gap: 30px;
 }

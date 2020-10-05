@@ -1,11 +1,12 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: SARA KAPLAN
+tagline: portrait painter
+featuredImage: /assets/sara-kaplan-self-portrait.webp
 cta:
-  ctaText: Know more
-  ctaLink: /about
+  ctaText: Contact
+  ctaLink: /contact
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+
+Sara Kaplan is a portrait painter and architect. Follow Sara on Instagram <a href="https://instagram.com/saraellenkaplan" target="_blank">@saraellenkaplan</a>.

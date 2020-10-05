@@ -1,8 +1,7 @@
 ---
 template: contact-page
 slug: /contact
-title: Get in touch
+title: Contact Sara
 ---
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+For inquiries, email Sara at <a href="mailto:sara@sarakaplan.net" target="_blank">sara@sarakaplan.net</a> or fill out the contact form below.

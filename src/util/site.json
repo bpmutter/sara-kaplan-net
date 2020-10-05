@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Sara Kaplan",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+    "description": "Sara Kaplan - portrait painter, visual artist and architect",
     "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
+    "image": "static/assets/charts.png",
     "twitterUsername": "@stackrole"
   },
   "ga": "UA-XXXXXXXXX-X"
