@@ -5,7 +5,9 @@
     "description": "Sara Kaplan - portrait painter, visual artist and architect",
     "siteUrl": "https://foundation.stackrole.com",
     "image": "static/assets/charts.png",
-    "twitterUsername": "@stackrole"
+    "twitterUsername": "@stackrole",
+    "instagramUsername": "saraellenkaplan",
+    "siteName": "sarakaplan.net"
   },
   "ga": "UA-XXXXXXXXX-X"
 }

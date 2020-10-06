@@ -25,14 +25,25 @@ const instagramPostQuery = graphql`
         }
       }
     }
+    site {
+      siteMetadata {
+        instagramUsername
+      }
+    }
   }
 `
 
 export default function BlogListHome() {
+  const data = useStaticQuery(instagramPostQuery)
   const {
     allInstaNode: { edges },
-  } = useStaticQuery(instagramPostQuery)
-
+  } = data
+  const {
+    site: {
+      siteMetadata: { instagramUsername },
+    },
+  } = data
+  const nodes = edges.map(edge => edge.node)
   return (
     <section className="home-posts">
       <h2>
@@ -42,12 +53,15 @@ export default function BlogListHome() {
         </span>
       </h2>
       <div className="grids col-1 sm-2 lg-3">
-        {edges.map(edge => {
-          const { node } = edge
-          return <InstaCard imgNode={node} key={`img ${node.id}`} />
-        })}
+        {nodes.map(node => (
+          <InstaCard imgNode={node} key={`img ${node.id}`} />
+        ))}
       </div>
-      <Link className="button" to="/blog">
+      <Link
+        className="button"
+        to={`https://www.instagram.com/${instagramUsername}/`}
+        target="_blank"
+      >
         See more
         <span class="icon -right">
           <RiArrowRightSLine />
