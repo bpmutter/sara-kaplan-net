@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 
 const PostCard = ({ data }) => {
-  console.log("post data is...", data)
   return (
     <article className="post-card">
       {data.frontmatter.featuredImage ? (
