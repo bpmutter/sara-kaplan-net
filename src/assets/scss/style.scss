@@ -7,6 +7,9 @@
 // 	grid-template-rows: 60px auto 60px;
 // 	min-height: 100vh;
 // }
+.text-primary {
+  color: var(--text-primary);
+}
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
   color: var(--primary-color);
@@ -92,7 +95,7 @@
       padding: 20px;
     }
     a:hover {
-      background-color: #29121d;
+      background-color: var(--home-link-color);
     }
   }
 }
@@ -310,6 +313,7 @@ article img {
 .contact-page,
 .thanks-page,
 .not-found-page {
+  color: var(--text-primary);
   padding: 50px 20px;
   .wrapper {
     max-width: 768px;

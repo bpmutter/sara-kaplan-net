@@ -16,6 +16,12 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `4026108218`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,

@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { RiArrowRightSLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
+import InstaListHome from "../components/insta-list-home"
 import SEO from "../components/seo"
 
 export const pageQuery = graphql`
@@ -70,7 +70,7 @@ const HomePage = ({ data }) => {
           </Link>
         </div>
       </div>
-      <BlogListHome />
+      <InstaListHome />
     </Layout>
   )
 }
