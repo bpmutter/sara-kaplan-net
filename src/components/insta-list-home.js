@@ -43,7 +43,11 @@ export default function BlogListHome() {
       siteMetadata: { instagramUsername },
     },
   } = data
-  const nodes = edges.map(edge => edge.node)
+  const nodes = edges
+    .map(edge => edge.node)
+    .slice(0, 12)
+    .sort((a, b) => b.timestamp - a.timestamp)
+
   return (
     <section className="home-posts">
       <h2>

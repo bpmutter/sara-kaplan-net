@@ -91,7 +91,6 @@ module.exports = {
         background_color: `#F0EDE4`,
         theme_color: `#DBA06B`,
         display: `standalone`,
-        icon: `static/assets/stackrole.png`,
       },
     },
     "gatsby-plugin-offline",
