@@ -1,12 +1,12 @@
 {
-  "name": "@stackrole/gatsby-starter-foundation",
-  "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+  "name": "sara-kaplan.net",
+  "description": "Sara Kaplan's personal portfolio site",
   "version": "1.0.0",
-  "author": "Stackrole <stackrole@gmail.com>",
+  "author": "Ben Perlmutter <ben@perlmutter.io>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stackrole/gatsby-starter-foundation.git"
+    "url": "https://github.com/bpmutter/sara-kaplan-net.git"
   },
   "bugs": {
     "url": "https://github.com/stackrole/gatsby-starter-foundation/issues"
