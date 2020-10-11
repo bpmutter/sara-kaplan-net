@@ -3,11 +3,11 @@
     "title": "Sara Kaplan",
     "titleTemplate": "%s",
     "description": "Sara Kaplan - portrait painter, visual artist and architect",
-    "siteUrl": "https://foundation.stackrole.com",
+    "siteUrl": "https://sarakaplan.netlify.add",
     "image": "static/assets/sara-kaplan-self-portrait.webp",
-    "twitterUsername": "@stackrole",
+    "twitterUsername": "",
     "instagramUsername": "saraellenkaplan",
     "siteName": "sarakaplan.net"
   },
-  "ga": "UA-XXXXXXXXX-X"
+  "ga": "UA-164663303-5"
 }
